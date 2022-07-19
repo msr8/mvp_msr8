@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name='mvp_msr8',
-    version='0.0.1',
+    version='0.0.2',
     description='hi!',
     py_modules=['mvp_msr8'],
     long_description=long_desc,
@@ -16,7 +16,7 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
-        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: OS Independent'
     ]
 )
