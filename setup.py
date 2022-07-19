@@ -5,13 +5,18 @@ with open('README.md') as f:
 
 setup(
     name='mvp_msr8',
-    version='0.0.2',
+    version='0.1.1',
     description='hi!',
     py_modules=['mvp_msr8'],
     long_description=long_desc,
     long_description_content_type='text/markdown',
     install_requires=['rich'],
     package_dir={'': 'src'},
+    entry_points={
+        'console_scripts': [
+            'mvp_msr8 = src:mvp_msr8',
+        ]
+    },
     classifiers=[
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
